@@ -2,9 +2,10 @@ import numpy as np
 import scipy.linalg as linalg
 
 e = 0.01
-A = np.array([(5, 1, 2),
-              (1, 4, 1),
-            (2, 1, 3)])
+A = np.array([(5, 1, 2, 3),
+              (1, 4, 1, 5),
+              (2, 1, 3, 7),
+              (3, 5, 7, 4)])
 
 imax = 0
 jmax = 1
